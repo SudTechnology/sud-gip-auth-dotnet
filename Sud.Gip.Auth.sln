@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AC9C0D1D-BC25-433B-835A-87E156E30A01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sud.Gip.Auth", "src\Sud.Gip.Auth\Sud.Gip.Auth.csproj", "{F4570705-BF90-457A-B427-559F5D650263}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{87D931CB-77A4-426C-9C2A-C5973DC1C461}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SdkTests", "tests\SdkTests\SdkTests.csproj", "{5FB090D3-222B-4E0B-89B4-21ABAA9D4139}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4570705-BF90-457A-B427-559F5D650263}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4570705-BF90-457A-B427-559F5D650263}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4570705-BF90-457A-B427-559F5D650263}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4570705-BF90-457A-B427-559F5D650263}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FB090D3-222B-4E0B-89B4-21ABAA9D4139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FB090D3-222B-4E0B-89B4-21ABAA9D4139}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FB090D3-222B-4E0B-89B4-21ABAA9D4139}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FB090D3-222B-4E0B-89B4-21ABAA9D4139}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F4570705-BF90-457A-B427-559F5D650263} = {AC9C0D1D-BC25-433B-835A-87E156E30A01}
+		{5FB090D3-222B-4E0B-89B4-21ABAA9D4139} = {87D931CB-77A4-426C-9C2A-C5973DC1C461}
+	EndGlobalSection
+EndGlobal
