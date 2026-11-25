@@ -1,4 +1,16 @@
 <Project Sdk="Microsoft.NET.Sdk">
-<PropertyGroup><TargetFramework>net8.0</TargetFramework><Nullable>enable</Nullable><ImplicitUsings>enable</ImplicitUsings><PackageId>Sud.Gip.Auth</PackageId><Version>1.0.0</Version><Description>Standalone Sud GIP HS256 authentication SDK for .NET.</Description><PackageLicenseExpression>MIT</PackageLicenseExpression><RepositoryUrl>https://github.com/SudTechnology/sud-gip-auth-dotnet</RepositoryUrl><PackageReadmeFile>README.md</PackageReadmeFile></PropertyGroup>
-<ItemGroup><None Include="../../README.md" Pack="true" PackagePath="/" /></ItemGroup>
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <PackageId>Sud.Gip.Auth</PackageId>
+    <Version>1.2.0</Version>
+    <Description>Standalone Sud GIP authentication and HTTP request signing SDK for .NET.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/SudTechnology/sud-gip-auth-dotnet</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="../../README.md" Pack="true" PackagePath="/" />
+  </ItemGroup>
 </Project>
